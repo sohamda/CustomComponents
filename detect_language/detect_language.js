@@ -9,7 +9,7 @@ function detectLanguage(textToDetect, callBackFunction) {
 	var options = { method: 'GET',
 	  url: 'https://translate.yandex.net/api/v1.5/tr.json/detect',
 	  qs: 
-	   { key: 'trnsl.1.1.20180302T143212Z.b3049b78d70bb0af.d05714a99eb21eed39a4b024f86b30591be042f3',
+	   { key: 'YOUR_KEY',
 		 text: textToDetect },
 	  headers: 
 	   { 'content-type': 'application/json' }};
