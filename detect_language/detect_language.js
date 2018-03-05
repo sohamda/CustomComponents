@@ -1,5 +1,11 @@
 "use strict"
 
+/**
+ * Custom  Component to Detect User language using Yandex API.
+ * Author : Soham Dasgupta
+ * @blog : http://adfjava.blogspot.in/2018/03/detect-user-language-oracle-bots.html
+ */
+
 var log4js = require('log4js');
 var logger = log4js.getLogger();
 
